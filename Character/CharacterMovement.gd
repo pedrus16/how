@@ -1,7 +1,6 @@
 extends KinematicBody
 
 
-# Declare member variables here. Examples:
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 var moveSpeed = 300
 var backwardSpeedRatio = 0.5
@@ -30,15 +29,15 @@ func _physics_process(delta):
 	if is_on_floor():
 		var moveDirection = Input.get_vector("move_left", "move_right", "move_forward", "move_back")
 
-#		TODO Improve acceleration because it feels mushy right now, it should be depending on a speed rate and not
+		# TODO Improve acceleration because it feels mushy right now, it should be depending on a speed rate and not
+		# TODO Lerp actual velocity and not the thumbstick direction 
 		_t += delta * acceleration
 		if moveDirection.distance_to(_lastMoveDirection) > 0.1:
 			_t = 0
 			_lerpMoveDirectionStart = _lerpMoveDirection
 			_lastMoveDirection = moveDirection
-#
+
 		_lerpMoveDirection  = _lerpMoveDirectionStart.linear_interpolate(moveDirection, min(_t, 1))
-#		print_debug(_t, "     ",_lerpMoveDirection.length())
 
 		velocity.x = _lerpMoveDirection.x * strafeSpeedRatio * moveSpeed * delta
 		velocity.z = _lerpMoveDirection.y * moveSpeed * delta
