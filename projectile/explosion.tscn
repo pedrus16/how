@@ -1,0 +1,91 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://projectile/smoke_01.png" type="Texture" id=1]
+[ext_resource path="res://projectile/fire_01.png" type="Texture" id=2]
+[ext_resource path="res://projectile/explosion.gd" type="Script" id=3]
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+vertex_color_use_as_albedo = true
+params_billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="QuadMesh" id=2]
+
+[sub_resource type="Curve" id=5]
+max_value = 2.0
+_data = [ Vector2( 0.0147059, 0.906818 ), 0.0, 1.46116, 0, 0, Vector2( 1, 2 ), 1.3233, 0.0, 0, 0 ]
+
+[sub_resource type="Gradient" id=4]
+offsets = PoolRealArray( 0, 0.480663, 1 )
+colors = PoolColorArray( 0.435059, 0.435059, 0.435059, 1, 0.505371, 0.505371, 0.505371, 1, 0.532715, 0.532715, 0.532715, 0 )
+
+[sub_resource type="SpatialMaterial" id=6]
+flags_transparent = true
+flags_unshaded = true
+vertex_color_use_as_albedo = true
+params_blend_mode = 1
+params_billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="QuadMesh" id=7]
+
+[sub_resource type="Gradient" id=8]
+offsets = PoolRealArray( 0, 0.121547, 0.668508, 1 )
+colors = PoolColorArray( 0.713726, 0.686275, 0, 0, 1, 0.550781, 0, 1, 1, 0.470588, 0, 1, 1, 0.333984, 0, 0 )
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 3 )
+
+[node name="Smoke" type="CPUParticles" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.722845, 0 )
+material_override = SubResource( 3 )
+emitting = false
+amount = 16
+lifetime = 2.0
+one_shot = true
+explosiveness = 1.0
+lifetime_randomness = 0.27
+draw_order = 2
+mesh = SubResource( 2 )
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector3( 0, 1, 0 )
+spread = 90.0
+gravity = Vector3( 0, 9.8, 0 )
+initial_velocity = 5.0
+initial_velocity_random = 0.1
+angular_velocity = 16.04
+angular_velocity_random = 1.0
+damping = 15.0
+angle = 360.0
+angle_random = 1.0
+scale_amount = 2.0
+scale_amount_curve = SubResource( 5 )
+color_ramp = SubResource( 4 )
+
+[node name="Flames" type="CPUParticles" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.722845, 0 )
+material_override = SubResource( 6 )
+emitting = false
+amount = 4
+lifetime = 0.53
+one_shot = true
+explosiveness = 1.0
+lifetime_randomness = 0.52
+mesh = SubResource( 7 )
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector3( 0, 1, 0 )
+spread = 90.0
+gravity = Vector3( 0, 0, 0 )
+angular_velocity = 47.82
+angular_velocity_random = 1.0
+scale_amount = 4.0
+color_ramp = SubResource( 8 )

@@ -22,8 +22,8 @@ func _input(event):
 		rotation.y -= event.relative.x * MOUSE_SENSITIVITY
 		rotation.y = wrapf(rotation.y, 0, 2 * PI)
 
-		springArm.rotation.x -= event.relative.y * MOUSE_SENSITIVITY
-		springArm.rotation_degrees.x = clamp(springArm.rotation_degrees.x, -90, 45)
+		rotation.x -= event.relative.y * MOUSE_SENSITIVITY
+		rotation_degrees.x = clamp(rotation_degrees.x, -90, 45)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

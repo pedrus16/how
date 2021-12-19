@@ -17,7 +17,9 @@ var _lerpMoveDirectionStart = Vector2.ZERO
 var _t = 0
 
 onready var pivot: Spatial = $Pivot
-onready var animationTree: AnimationTree = $Pivot/Model/AnimationTree
+onready var animationTree: AnimationTree = $Model/AnimationTree
+
+signal shoot(projectile, direction, location)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
@@ -58,3 +60,7 @@ func _physics_process(delta):
 
 
 	_velocity = move_and_slide_with_snap(velocity, snapVector, Vector3.UP, true)
+
+
+func _on_WeaponMuzzle_shoot(projectile, transform):
+	emit_signal("shoot", projectile, transform)

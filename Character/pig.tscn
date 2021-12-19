@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://pig_french.tscn" type="PackedScene" id=1]
+[ext_resource path="res://character/character_movement.gd" type="Script" id=2]
+[ext_resource path="res://character/camera_control.gd" type="Script" id=3]
+[ext_resource path="res://character/weapon.gd" type="Script" id=4]
+
+[sub_resource type="CapsuleShape" id=1]
+radius = 0.400175
+height = 0.461863
+
+[node name="Pig" type="KinematicBody"]
+script = ExtResource( 2 )
+
+[node name="Pivot" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25342, 0 )
+script = ExtResource( 3 )
+
+[node name="WeaponMuzzle" type="Position3D" parent="Pivot"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.615 )
+script = ExtResource( 4 )
+
+[node name="SpringArm" type="SpringArm" parent="Pivot"]
+transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 0, 0 )
+collision_mask = 2
+spring_length = 2.0
+margin = 0.1
+
+[node name="Camera" type="Camera" parent="Pivot/SpringArm"]
+current = true
+
+[node name="Collision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.632725, 0 )
+shape = SubResource( 1 )
+
+[node name="Model" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.000419974, 0 )
+
+[connection signal="shoot" from="." to="." method="_on_Pig_shoot"]
+[connection signal="shoot" from="Pivot/WeaponMuzzle" to="." method="_on_WeaponMuzzle_shoot"]
