@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://dedkkgqhdmuom"]
+
+[ext_resource type="ArrayMesh" uid="uid://cu4j4rndnqcmo" path="res://maps/ROAD.res" id="1_eeck3"]
+[ext_resource type="Texture2D" uid="uid://bdfkk2rffi1md" path="res://assets/sprites/rabbid_bazooka.png" id="2_mtspq"]
+[ext_resource type="Texture2D" uid="uid://dormr5araef52" path="res://assets/sprites/rabbid_idle.png" id="3_wk5o3"]
+[ext_resource type="Texture2D" uid="uid://dqouvuweepgkq" path="res://assets/sprites/tree.png" id="4_5wsdd"]
+
+[node name="Node3D" type="Node3D" unique_id=678378619]
+
+[node name="Road" type="MeshInstance3D" parent="." unique_id=1805560299]
+transform = Transform3D(10, 0, 0, 0, -4.371139e-07, -10, 0, 10, -4.371139e-07, 0, 0, 0)
+mesh = ExtResource("1_eeck3")
+
+[node name="Rabbid1" type="Sprite3D" parent="." unique_id=2109815903]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.812965, 35.257538, -37.303646)
+billboard = 2
+texture = ExtResource("2_mtspq")
+
+[node name="Rabbid2" type="Sprite3D" parent="." unique_id=2076541091]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.297192, 13.501671, -35.28445)
+billboard = 2
+texture = ExtResource("3_wk5o3")
+
+[node name="Tree" type="Sprite3D" parent="." unique_id=2120609295]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.302074, 30.942179, -82.5627)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree4" type="Sprite3D" parent="." unique_id=1829465423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.925618, 11.914341, -43.894264)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree8" type="Sprite3D" parent="." unique_id=285793760]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 99.68688, 21.409052, 59.320213)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree9" type="Sprite3D" parent="." unique_id=159945796]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.873726, 24.374617, 59.121265)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree10" type="Sprite3D" parent="." unique_id=475845987]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.01427, 21.55751, 79.56195)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree11" type="Sprite3D" parent="." unique_id=136724117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.691544, 28.690836, 99.363815)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree12" type="Sprite3D" parent="." unique_id=322102088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.7558, 25.872286, 105.22446)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree13" type="Sprite3D" parent="." unique_id=2048424201]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -94.90137, 19.320736, 120.29091)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree2" type="Sprite3D" parent="." unique_id=1589081179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 89.67671, 21.777067, -84.419304)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree3" type="Sprite3D" parent="." unique_id=1653205555]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.87042, 39.1799, -38.087605)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree7" type="Sprite3D" parent="." unique_id=1274023296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.94583, 39.4066, -33.33633)
+modulate = Color(0.94923216, 0.8224456, 0.63989234, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree5" type="Sprite3D" parent="." unique_id=1705777431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.8847, 38.763355, -23.316002)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
+
+[node name="Tree6" type="Sprite3D" parent="." unique_id=784359198]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 102.634094, 34.889206, 9.517948)
+modulate = Color(0.9490196, 0.8235294, 0.6392157, 1)
+billboard = 2
+texture = ExtResource("4_5wsdd")
