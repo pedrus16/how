@@ -1,0 +1,8 @@
+newmtl we_ba000
+ map_Ka textures\WE_BA000.png
+newmtl we_ba001
+ map_Ka textures\WE_BA001.png
+newmtl we_ba002
+ map_Ka textures\WE_BA002.png
+newmtl we_ba003
+ map_Ka textures\WE_BA003.png

@@ -1,0 +1,8 @@
+newmtl gren000
+ map_Ka textures\GREN000.png
+newmtl gren001
+ map_Ka textures\GREN001.png
+newmtl gren002
+ map_Ka textures\GREN002.png
+newmtl gren003
+ map_Ka textures\GREN003.png

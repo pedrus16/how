@@ -1,0 +1,4 @@
+newmtl tele
+ map_Ka textures\TELE.png
+newmtl tele1
+ map_Ka textures\TELE1.png

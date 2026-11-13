@@ -1,0 +1,12 @@
+newmtl prod000
+ map_Ka textures\PROD000.png
+newmtl prod001
+ map_Ka textures\PROD001.png
+newmtl prod002
+ map_Ka textures\PROD002.png
+newmtl prod003
+ map_Ka textures\PROD003.png
+newmtl prod004
+ map_Ka textures\PROD004.png
+newmtl prod005
+ map_Ka textures\PROD005.png

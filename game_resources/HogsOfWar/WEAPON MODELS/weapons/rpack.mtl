@@ -1,0 +1,16 @@
+newmtl r_pak000
+ map_Ka textures\R_PAK000.png
+newmtl r_pak001
+ map_Ka textures\R_PAK001.png
+newmtl r_pak002
+ map_Ka textures\R_PAK002.png
+newmtl r_pak003
+ map_Ka textures\R_PAK003.png
+newmtl r_pak004
+ map_Ka textures\R_PAK004.png
+newmtl r_pak005
+ map_Ka textures\R_PAK005.png
+newmtl r_pak006
+ map_Ka textures\R_PAK006.png
+newmtl r_pak007
+ map_Ka textures\R_PAK007.png

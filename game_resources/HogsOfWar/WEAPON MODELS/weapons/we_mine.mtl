@@ -1,0 +1,8 @@
+newmtl ammo004
+ map_Ka textures\AMMO004.png
+newmtl ammo006
+ map_Ka textures\AMMO006.png
+newmtl mine000
+ map_Ka textures\MINE000.png
+newmtl mine001
+ map_Ka textures\MINE001.png

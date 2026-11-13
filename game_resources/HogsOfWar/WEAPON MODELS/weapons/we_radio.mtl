@@ -1,0 +1,6 @@
+newmtl bmmo010
+ map_Ka textures\BMMO010.png
+newmtl bmmo011
+ map_Ka textures\BMMO011.png
+newmtl bmmo012
+ map_Ka textures\BMMO012.png

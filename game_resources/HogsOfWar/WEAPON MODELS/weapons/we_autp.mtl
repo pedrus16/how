@@ -1,0 +1,8 @@
+newmtl aup_u000
+ map_Ka textures\AUP_U000.png
+newmtl aup_u001
+ map_Ka textures\AUP_U001.png
+newmtl aup_u002
+ map_Ka textures\AUP_U002.png
+newmtl brsp_017
+ map_Ka textures\BRSP_017.png

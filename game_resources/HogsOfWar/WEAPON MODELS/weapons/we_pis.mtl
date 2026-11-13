@@ -1,0 +1,12 @@
+newmtl brsp_017
+ map_Ka textures\BRSP_017.png
+newmtl pis_u000
+ map_Ka textures\PIS_U000.png
+newmtl pis_u001
+ map_Ka textures\PIS_U001.png
+newmtl pis_u002
+ map_Ka textures\PIS_U002.png
+newmtl pis_u003
+ map_Ka textures\PIS_U003.png
+newmtl pis_u004
+ map_Ka textures\PIS_U004.png

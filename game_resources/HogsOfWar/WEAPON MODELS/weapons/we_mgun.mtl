@@ -1,0 +1,14 @@
+newmtl mgun000
+ map_Ka textures\MGUN000.png
+newmtl mgun001
+ map_Ka textures\MGUN001.png
+newmtl mgun002
+ map_Ka textures\MGUN002.png
+newmtl mgun003
+ map_Ka textures\MGUN003.png
+newmtl mgun004
+ map_Ka textures\MGUN004.png
+newmtl mgun005
+ map_Ka textures\MGUN005.png
+newmtl mgun006
+ map_Ka textures\MGUN006.png

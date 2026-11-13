@@ -1,0 +1,12 @@
+newmtl red
+ map_Ka textures\red.png
+newmtl grip
+ map_Ka textures\grip.png
+newmtl hndblue
+ map_Ka textures\hndblue.png
+newmtl panlblu
+ map_Ka textures\panlblu.png
+newmtl sghtblu
+ map_Ka textures\sghtblu.png
+newmtl sholblu
+ map_Ka textures\sholblu.png

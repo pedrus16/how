@@ -1,0 +1,14 @@
+newmtl ft_bar
+ map_Ka textures\FT_BAR.png
+newmtl ft_end
+ map_Ka textures\FT_END.png
+newmtl ft_han
+ map_Ka textures\FT_HAN.png
+newmtl ft_noz
+ map_Ka textures\FT_NOZ.png
+newmtl ft_pipe
+ map_Ka textures\FT_PIPE.png
+newmtl ft_s
+ map_Ka textures\FT_S.png
+newmtl ft_tank
+ map_Ka textures\FT_TANK.png

@@ -1,0 +1,12 @@
+newmtl handle
+ map_Ka textures\handle.png
+newmtl hole
+ map_Ka textures\hole.png
+newmtl panel
+ map_Ka textures\panel.png
+newmtl sights
+ map_Ka textures\sights.png
+newmtl sqhole
+ map_Ka textures\sqhole.png
+newmtl grip
+ map_Ka textures\grip.png

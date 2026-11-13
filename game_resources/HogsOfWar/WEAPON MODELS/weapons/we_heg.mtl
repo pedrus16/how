@@ -1,0 +1,8 @@
+newmtl heg000
+ map_Ka textures\HEG000.png
+newmtl heg001
+ map_Ka textures\HEG001.png
+newmtl heg002
+ map_Ka textures\HEG002.png
+newmtl heg003
+ map_Ka textures\HEG003.png

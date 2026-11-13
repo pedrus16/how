@@ -1,0 +1,6 @@
+newmtl shove000
+ map_Ka textures\SHOVE000.png
+newmtl shove001
+ map_Ka textures\SHOVE001.png
+newmtl shove002
+ map_Ka textures\SHOVE002.png

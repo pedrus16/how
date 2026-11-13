@@ -1,0 +1,20 @@
+newmtl lewis000
+ map_Ka textures\LEWIS000.png
+newmtl lewis001
+ map_Ka textures\LEWIS001.png
+newmtl lewis002
+ map_Ka textures\LEWIS002.png
+newmtl lewis003
+ map_Ka textures\LEWIS003.png
+newmtl lewis004
+ map_Ka textures\LEWIS004.png
+newmtl lewis005
+ map_Ka textures\LEWIS005.png
+newmtl lewis006
+ map_Ka textures\LEWIS006.png
+newmtl lewis007
+ map_Ka textures\LEWIS007.png
+newmtl lewis008
+ map_Ka textures\LEWIS008.png
+newmtl lewis010
+ map_Ka textures\LEWIS010.png

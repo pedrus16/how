@@ -1,7 +1,3 @@
-# Import cache
-.import/
-
-# Binaries
-bin/
-build/
-lib/
+# Godot 4+ specific ignores
+.godot/
+/android/

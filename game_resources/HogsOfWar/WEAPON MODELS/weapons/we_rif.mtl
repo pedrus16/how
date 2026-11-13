@@ -1,0 +1,8 @@
+newmtl brsp_017
+ map_Ka textures\BRSP_017.png
+newmtl rif_u000
+ map_Ka textures\RIF_U000.png
+newmtl rif_u001
+ map_Ka textures\RIF_U001.png
+newmtl rif_u002
+ map_Ka textures\RIF_U002.png

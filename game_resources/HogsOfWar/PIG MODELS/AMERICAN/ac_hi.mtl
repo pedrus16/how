@@ -1,0 +1,448 @@
+newmtl ac_hi:ACEU_081
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_001.png
+Ni 1.00
+newmtl ac_hi:ACEU_083
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_000.png
+Ni 1.00
+newmtl ac_hi:ACEU_085
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_011.png
+Ni 1.00
+newmtl ac_hi:ACEU_087
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_005.png
+Ni 1.00
+newmtl ac_hi:ACEU_089
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_002.png
+Ni 1.00
+newmtl ac_hi:ACEU_091
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_006.png
+Ni 1.00
+newmtl ac_hi:ACEU_093
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_007.png
+Ni 1.00
+newmtl ac_hi:ACEU_095
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_009.png
+Ni 1.00
+newmtl ac_hi:ACEU_097
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_012.png
+Ni 1.00
+newmtl ac_hi:ACEU_099
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_010.png
+Ni 1.00
+newmtl ac_hi:ACEU_101
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_013.png
+Ni 1.00
+newmtl ac_hi:ACEU_103
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_014.png
+Ni 1.00
+newmtl ac_hi:ACEU_105
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_008.png
+Ni 1.00
+newmtl ac_hi:ACEU_107
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_003.png
+Ni 1.00
+newmtl ac_hi:ACEU_109
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_004.png
+Ni 1.00
+newmtl ac_hi:AC_H012
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H002.png
+Ni 1.00
+newmtl ac_hi:AC_H014
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H003.png
+Ni 1.00
+newmtl ac_hi:AC_H016
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H004.png
+Ni 1.00
+newmtl ac_hi:AC_H018
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H000.png
+Ni 1.00
+newmtl ac_hi:AC_H020
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H001.png
+Ni 1.00
+newmtl ac_hi:GRUN_053
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_010.png
+Ni 1.00
+newmtl ac_hi:GRUN_055
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_007.png
+Ni 1.00
+newmtl ac_hi:GRUN_057
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_018.png
+Ni 1.00
+newmtl ac_hi:GRUN_059
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_017.png
+Ni 1.00
+newmtl ac_hi:GRUN_061
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_021.png
+Ni 1.00
+newmtl ac_hi:GRUN_063
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_015.png
+Ni 1.00
+newmtl ac_hi:GRUN_065
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_020.png
+Ni 1.00
+newmtl ac_hi:GRUN_067
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_016.png
+Ni 1.00
+newmtl ac_hi:HEVY_017
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka HEVY_007.png
+Ni 1.00
+newmtl ac_hi:HEVY_019
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka HEVY_008.png
+Ni 1.00
+newmtl ac_hi:eyes007
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka eyes000.png
+Ni 1.00
+newmtl ac_hi:gobs003
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka gobs000.png
+Ni 1.00
+newmtl ac_hi1:ACEU_081
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_001.png
+Ni 1.00
+newmtl ac_hi1:ACEU_083
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_000.png
+Ni 1.00
+newmtl ac_hi1:ACEU_085
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_011.png
+Ni 1.00
+newmtl ac_hi1:ACEU_087
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_005.png
+Ni 1.00
+newmtl ac_hi1:ACEU_089
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_002.png
+Ni 1.00
+newmtl ac_hi1:ACEU_091
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_006.png
+Ni 1.00
+newmtl ac_hi1:ACEU_093
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_007.png
+Ni 1.00
+newmtl ac_hi1:ACEU_095
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_009.png
+Ni 1.00
+newmtl ac_hi1:ACEU_097
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_012.png
+Ni 1.00
+newmtl ac_hi1:ACEU_099
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_010.png
+Ni 1.00
+newmtl ac_hi1:ACEU_101
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_013.png
+Ni 1.00
+newmtl ac_hi1:ACEU_103
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_014.png
+Ni 1.00
+newmtl ac_hi1:ACEU_105
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_008.png
+Ni 1.00
+newmtl ac_hi1:ACEU_107
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_003.png
+Ni 1.00
+newmtl ac_hi1:ACEU_109
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka ACEU_004.png
+Ni 1.00
+newmtl ac_hi1:AC_H012
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H002.png
+Ni 1.00
+newmtl ac_hi1:AC_H014
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H003.png
+Ni 1.00
+newmtl ac_hi1:AC_H016
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H004.png
+Ni 1.00
+newmtl ac_hi1:AC_H018
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H000.png
+Ni 1.00
+newmtl ac_hi1:AC_H020
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka AC_H001.png
+Ni 1.00
+newmtl ac_hi1:GRUN_053
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_010.png
+Ni 1.00
+newmtl ac_hi1:GRUN_055
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_007.png
+Ni 1.00
+newmtl ac_hi1:GRUN_057
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_018.png
+Ni 1.00
+newmtl ac_hi1:GRUN_059
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_017.png
+Ni 1.00
+newmtl ac_hi1:GRUN_061
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_021.png
+Ni 1.00
+newmtl ac_hi1:GRUN_063
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_015.png
+Ni 1.00
+newmtl ac_hi1:GRUN_065
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_020.png
+Ni 1.00
+newmtl ac_hi1:GRUN_067
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka GRUN_016.png
+Ni 1.00
+newmtl ac_hi1:HEVY_017
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka HEVY_007.png
+Ni 1.00
+newmtl ac_hi1:HEVY_019
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka HEVY_008.png
+Ni 1.00
+newmtl ac_hi1:eyes007
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka eyes000.png
+Ni 1.00
+newmtl ac_hi1:gobs003
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Ka gobs000.png
+Ni 1.00

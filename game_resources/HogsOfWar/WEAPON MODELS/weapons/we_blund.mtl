@@ -1,0 +1,6 @@
+newmtl bfunn
+ map_Ka textures\BFUNN.png
+newmtl blbend
+ map_Ka textures\BLBEND.png
+newmtl bstok
+ map_Ka textures\BSTOK.png
